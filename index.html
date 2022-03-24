@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asefeh Zivlaei</title>
+    <link rel="stylesheet" href="styletile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <a class="logo" href="index.html"><img src="az.png" alt="" /></a>
+      <div>
+        <ul>
+          <li><a href="index.html#projekter">Projects</a></li>
+          <li><a href="index.html#request">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="main_header">
+        <h1 class="fade-in-down">ASEFEH <br />ZIVLAEI</h1>
+        <p>
+          My name is Asefeh and I'm studying Multimedia design at KEA.
+          <br />
+          You'll find some of my resent projects below. If you want to know more
+          about me, feel free to check
+          <a href="index.html#request">contact</a> me.
+        </p>
+      </div>
+    </header>
+
+    <section id="projekter">
+      <h1>PROJECTS</h1>
+
+      <div class="boxes">
+        <div class="box1">
+          <img src="fonts_mockup.png" alt="" />
+          <h3>
+            12C.01.01 <br />
+            Fonts and UI cards
+          </h3>
+          <a class="button" href="12C.01.01.html">See project</a>
+        </div>
+
+        <div class="box1">
+          <img src="ani_mockup.png" alt="" />
+          <h3>
+            12C.01.02 <br />
+            Colors and animations
+          </h3>
+          <a class="button" href="12C.01.02.html">See project</a>
+        </div>
+
+        <div class="box1">
+          <img src="frame_mockup.png" alt="" />
+          <h3>
+            12C.02.02 <br />
+            Designing with frameworks
+          </h3>
+          <a class="button" href="12C.02.02.html">See project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="request">
+      <div>
+        <h2>Did you like my work?</h2>
+        <p>Feel free to get in touch!</p>
+
+        <div class="container">
+          <form>
+            <div>
+              <label for="fname">First Name</label>
+            </div>
+
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <div>
+              <div>
+                <label for="lname">Last Name</label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <label for="subject">Subject</label>
+
+              <div>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height: 200px"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/asefeh-zivlaei-ab32a7a2"
+        ><img src="linkedin.png" alt=""
+      /></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
